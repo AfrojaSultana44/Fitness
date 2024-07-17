@@ -1,5 +1,46 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* font-family: "Inter", sans-serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* shared styles start */
+.container {
+  max-width: 1060px;
+  width: 100%;
+  margin: 0px auto;
+}
+/* shared styles end */
+
+/* header section start */
+.header-container {
+  width: 100%;
+}
+
+/* header section end */
+
+/* banner section starts */
+.banner-container {
+  width: 100%;
+}
+
+/* banner section end */
+
+/* Responsive design starts for tablet devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+}
+
+/* Responsive design end for tablet devices */
+
+/* Responsive design starts for mobile devices */
+@media screen and (max-width: 576px) {
+}
+
+/* Responsive design end for mobile devices */
