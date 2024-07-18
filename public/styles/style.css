@@ -246,8 +246,55 @@ body {
 .card-content {
   text-align: center;
 }
-
 /* habits section end */
+
+/* run an extra mile section starts */
+.run-an-extra-mile-container{
+  width: 100%;
+  background-color: black;
+}
+
+.run-an-extra-mile-content-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: 
+  rgba(34, 34, 34, 1);
+  border-radius: 18px;
+  padding: 30px 32px 30px 52px;
+}
+
+.run-an-extra-mile-content{
+  width: 40%;
+}
+
+.run-an-extra-mile-content > h1{
+  color: 
+  rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.run-an-extra-mile-content > p{
+  color: 
+  rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.87rem;
+  margin: 14px 0px 34px;
+}
+
+.run-an-extra-mile-img{
+  width: 40%;
+}
+
+.run-an-extra-mile-img>img{
+  width: 100%;
+  border-radius: 18px;
+}
+
+
+/* run an extra mile section end */
+
 
 /* Responsive design starts for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
