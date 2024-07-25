@@ -91,6 +91,10 @@ body {
   font-style: italic;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 /* banner section starts */
 .banner-container {
   width: 100%;
@@ -365,6 +369,79 @@ body {
 
 /* team section end */
 
+/* footer section starts */
+.footer-container {
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);
+}
+
+.footer-column-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+
+.footer-content {
+  width: 40%;
+}
+
+.footer-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.footer-column > ul > li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.footer-column > ul > li > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1.12rem;
+}
+
+.footer-column > h3 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.footer-logo > .logo {
+  font-size: 4rem;
+}
+
+.footer-bottom {
+  padding-bottom: 30px;
+}
+
+.footer-bottom > hr {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.copy-right {
+  margin-top: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1.12rem;
+}
+
+/* footer section end */
+
 /* Responsive design starts for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
 }
@@ -373,6 +450,13 @@ body {
 
 /* Responsive design starts for mobile devices */
 @media screen and (max-width: 576px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
 }
 
 /* Responsive design end for mobile devices */
