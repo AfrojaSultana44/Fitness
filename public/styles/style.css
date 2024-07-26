@@ -439,12 +439,18 @@ body {
   border-collapse: collapse;
 }
 
+.calculator-chart > table > thead > tr > td {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
 .calculator-chart > table td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px 18px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.87rem;
 }
 
 .calculate-bmi > h3 {
@@ -464,6 +470,11 @@ body {
 .calculator-btn {
   margin-top: 34px;
 }
+
+.calculator-btn > button{
+padding: 16px 70px;
+}
+
 .form-input-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -664,6 +675,45 @@ body {
     width: 100%;
   }
   /* run an extra mile section end */
+
+  /* BMI calculator section starts */
+  .bmi-calculator-content {
+    width: 100%;
+    padding: 30px 20px 32px;
+  }
+
+  .bmi-calculator-content > h1 {
+    font-size: 2rem;
+  }
+
+  .bmi-calculator-container {
+    padding: 34px 0px 43px;
+  }
+
+  .calculator {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
+  .calculator-chart {
+    width: 100%;
+    margin-bottom: 42px;
+  }
+
+  .calculator-chart > h3 {
+    font-size: 1rem;
+    margin-bottom: 23px;
+  }
+
+  .calculate-bmi {
+    width: 100%;
+  }
+
+  .calculate-bmi > h3 {
+    font-size: 1rem;
+  }
+
+  /* BMI calculator section end */
 }
 
 /* Responsive design end for mobile devices */
