@@ -82,6 +82,18 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
+}
+
+.nav-link {
+  padding: 8px 20px;
+}
+
+.home-bg {
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 46px;
 }
 
 .logo {
@@ -369,6 +381,91 @@ body {
 
 /* team section end */
 
+/* bmi calculator section starts */
+.bmi-calculator {
+  width: 100%;
+  background-color: black;
+}
+
+.bmi-calculator-content {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding: 100px 0px;
+}
+
+.bmi-calculator-content > h1 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.bmi-calculator-content > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.87rem;
+  margin-top: 14px;
+}
+
+.bmi-calculator-container {
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);
+  padding: 50px 0px;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculator-chart {
+  width: 40%;
+}
+
+.calculate-bmi {
+  width: 50%;
+}
+
+.calculator-chart > h3 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-bottom: 50px;
+}
+
+.calculator-chart > table {
+  border-collapse: collapse;
+}
+
+.calculator-chart > table td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.calculate-bmi > h3 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.calculate-bmi > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.87rem;
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+
+.calculator-btn {
+  margin-top: 50px;
+}
+
+/* bmi calculator section end */
+
 /* footer section starts */
 .footer-container {
   width: 100%;
@@ -380,7 +477,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .footer-content {
@@ -397,47 +494,49 @@ body {
 .footer-content > p {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.87rem;
   margin-top: 20px;
 }
 
 .footer-column > ul > li {
   list-style: none;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .footer-column > ul > li > a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  font-size: 1.12rem;
+  font-size: 1.44rem;
 }
 
 .footer-column > h3 {
   color: rgba(255, 255, 255, 1);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 39px;
 }
 
 .footer-logo > .logo {
-  font-size: 4rem;
+  font-size: 4.37rem;
 }
 
 .footer-bottom {
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
-.footer-bottom > hr {
-  color: rgba(255, 255, 255, 0.5);
+#hr {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 2px;
+  border: none;
 }
 
 .copy-right {
-  margin-top: 30px;
+  margin-top: 35px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  font-size: 1.12rem;
+  font-size: 1.25rem;
 }
 
 /* footer section end */
