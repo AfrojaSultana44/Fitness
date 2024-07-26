@@ -229,7 +229,7 @@ body {
 
 .change-habits-content > p {
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.87rem;
 }
 
@@ -246,9 +246,11 @@ body {
   color: rgba(255, 255, 255, 1);
   font-weight: 600;
   font-size: 1.12rem;
+  margin-bottom: 6px;
 }
 
 .card-img > img {
+  border: 4px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   width: 100%;
 }
@@ -565,6 +567,14 @@ body {
 
 /* Responsive design starts for mobile devices */
 @media screen and (max-width: 576px) {
+  /* header styles start */
+  .nav-container {
+    padding: 52px 20px;
+  }
+
+  .logo {
+    font-size: 2.25rem;
+  }
   .hamburger-menu {
     display: block;
   }
@@ -572,6 +582,61 @@ body {
   .nav-links {
     display: none;
   }
+
+  .banner-container {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
+  .banner-content {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  .banner-title {
+    font-size: 2.25rem;
+    /* width: 60%; */
+  }
+
+  .span {
+    font-size: 2.25rem;
+  }
+
+  .banner-btn {
+    display: flex;
+  }
+
+  /* header styles end */
+
+  /* habits section starts */
+  .change-habits-container {
+    padding: 0px 38px 66px;
+  }
+
+  .change-habits-content {
+    width: 100%;
+    padding: 0px 10px 58px;
+  }
+
+  .change-habits-content > h1 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+  }
+
+  .change-habits-content > p {
+    font-weight: 400;
+  }
+
+  .change-habits-img-card {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .card-img-title{
+    margin-top: 30px;
+    margin-bottom: 6px;
+  }
+
+  /* habits section end */
 }
 
 /* Responsive design end for mobile devices */
