@@ -471,8 +471,8 @@ body {
   margin-top: 34px;
 }
 
-.calculator-btn > button{
-padding: 16px 70px;
+.calculator-btn > button {
+  padding: 16px 70px;
 }
 
 .form-input-container {
@@ -720,32 +720,67 @@ padding: 16px 70px;
     padding: 66px 0px;
   }
 
-  .team-content{
+  .team-content {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 37px;
   }
 
-  .team-content > h1{
+  .team-content > h1 {
     font-size: 2rem;
   }
-  
-.team-image-container{
-  grid-template-columns: 1fr;
-}
 
-.team-container{
-  padding: 0px 20px;
-}
+  .team-image-container {
+    grid-template-columns: 1fr;
+  }
 
-.team-card > img{
-  width: 100%;
-}
+  .team-container {
+    padding: 0px 20px;
+  }
+
+  .team-card > img {
+    width: 100%;
+  }
   /* Team section end */
 
- 
+  /* footer section starts */
+  .footer-container {
+    padding: 44px 20px 0px;
+  }
+  .footer-column-container {
+    flex-direction: column;
+    padding-top: 0px;
+  }
 
+  .footer-content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
+  .footer-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .footer-logo > .logo {
+    font-size: 4.87rem;
+  }
+
+  .copy-right {
+    margin-top: 41px;
+    text-align: left;
+  }
+
+  .footer-bottom {
+    padding-bottom: 57px;
+  }
+
+  /* footer section end */
 }
 
 /* Responsive design end for mobile devices */
