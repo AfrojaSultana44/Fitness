@@ -714,6 +714,38 @@ padding: 16px 70px;
   }
 
   /* BMI calculator section end */
+
+  /* Team section starts */
+  .team-content-container {
+    padding: 66px 0px;
+  }
+
+  .team-content{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 37px;
+  }
+
+  .team-content > h1{
+    font-size: 2rem;
+  }
+  
+.team-image-container{
+  grid-template-columns: 1fr;
+}
+
+.team-container{
+  padding: 0px 20px;
+}
+
+.team-card > img{
+  width: 100%;
+}
+  /* Team section end */
+
+ 
+
+
 }
 
 /* Responsive design end for mobile devices */
