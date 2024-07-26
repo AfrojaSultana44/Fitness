@@ -631,12 +631,39 @@ body {
     gap: 40px;
   }
 
-  .card-img-title{
+  .card-img-title {
     margin-top: 30px;
     margin-bottom: 6px;
   }
 
   /* habits section end */
+
+  /* run an extra mile section starts */
+  .run-an-extra-mile-container {
+    padding: 0px 20px;
+  }
+  .run-an-extra-mile-content-container {
+    flex-direction: column;
+    padding: 31px 33px 35px;
+  }
+
+  .run-an-extra-mile-content {
+    width: 100%;
+  }
+
+  .run-an-extra-mile-content > h1 {
+    font-size: 2rem;
+  }
+
+  .run-an-extra-mile-content > button {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .run-an-extra-mile-img {
+    width: 100%;
+  }
+  /* run an extra mile section end */
 }
 
 /* Responsive design end for mobile devices */
