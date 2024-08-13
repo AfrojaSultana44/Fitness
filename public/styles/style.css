@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 /* font-family: "Inter", sans-serif; */
 
-@font-face{
+@font-face {
   font-family: Miama;
   src: url("../styles/Miama.ttf");
 }
@@ -36,8 +36,8 @@ body {
 .floating-card {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  border: none;
   padding: 17px 24px;
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
 }
 
 .btn-2 {
@@ -53,18 +53,10 @@ body {
 .header-container {
   width: 100%;
   background-color: black;
-   /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-  /* background: linear-gradient(rgba(17, 17, 17, 1) rgba(119, 119, 119, 0)); */
-  /* background-blend-mode: overlay;  */
-  /* background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 1) 100%
-  ); */
-  
+ 
+  /* background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0)); */
+  /* background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+
 }
 
 .nav-container {
@@ -204,6 +196,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  backdrop-filter: blur(15.12px);
 }
 
 .circle {
@@ -324,6 +317,10 @@ body {
   width: 100%;
   border-radius: 18px;
 }
+
+.hide{
+  display: none;
+}
 /* run an extra mile section end */
 
 /* team section starts */
@@ -373,13 +370,12 @@ body {
   position: relative;
 }
 
-
-.team-card-img{
+.team-card-img {
   width: 100%;
   height: 272px;
 }
 
-.team-card-img > img{
+.team-card-img > img {
   width: 100%;
   height: 100%;
   border-radius: 18px;
@@ -512,7 +508,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-  font: 1rem;
+  font-size: 1rem;
   border-radius: 8px;
   padding: 13px 20px;
   border: none;
@@ -621,6 +617,10 @@ body {
     display: none;
   }
 
+  .banner-profile-img {
+    width: 100%;
+  }
+
   .banner-container {
     flex-direction: column;
     padding: 0px 20px;
@@ -653,6 +653,39 @@ body {
 
   .btn-2 {
     padding: 16px 20px;
+  }
+
+  .floating-card-1 {
+    top: 8%;
+    right: 20%;
+  }
+  
+  .floating-card-2 {
+    top: 50%;
+    left: 5%;
+  }
+
+  .count-workout-videos{
+    font-size: 1.87rem;
+  }
+
+  .title-workout-videos{
+font-size: 0.61rem;
+  }
+
+  .count-tutorial-videos{
+    font-size: 1.12rem;
+  }
+
+  .title-tutorial-videos{
+    font-size: 0.75rem;
+
+  }
+
+  .circle {
+    height: 30px;
+    width: 30px;
+    margin-right: 9px;
   }
 
   /* header styles end */
@@ -712,6 +745,10 @@ body {
 
   .run-an-extra-mile-img {
     width: 100%;
+  }
+
+  .hide{
+    display: block;
   }
   /* run an extra mile section end */
 
@@ -777,19 +814,18 @@ body {
     padding: 0px 20px;
   }
 
-  .card-three{
+  .card-three {
     grid-row-start: 3;
     grid-row-end: 4;
   }
 
-  .card-five{
+  .card-five {
     grid-row-start: 2;
     grid-row-end: 3;
   }
 
-
-  .card-hide{
-   display: none;
+  .card-hide {
+    display: none;
   }
 
   /* Team section end */
