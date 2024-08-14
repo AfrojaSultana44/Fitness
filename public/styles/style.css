@@ -427,7 +427,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 18px;
-  object-fit: fill;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -885,6 +885,10 @@ body {
 
   .team-container {
     padding: 0px 20px;
+  }
+
+  .team-card-img > img {
+    object-fit: fill;
   }
 
   .card-three {
