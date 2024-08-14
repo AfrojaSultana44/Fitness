@@ -333,6 +333,9 @@ body {
 
 .choose-us-img {
   width: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 20px;
 }
 
 .choose-us-img > img {
@@ -746,11 +749,6 @@ body {
 
   .change-habits-content > h1 {
     font-size: 2rem;
-    margin-bottom: 14px;
-  }
-
-  .change-habits-content > p {
-    font-weight: 400;
   }
 
   .change-habits-img-card {
