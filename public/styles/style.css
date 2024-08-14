@@ -639,7 +639,6 @@ body {
 
 /* footer section end */
 
-
 /* Responsive design starts for mobile devices */
 @media screen and (max-width: 576px) {
   /* header styles start */
@@ -675,7 +674,6 @@ body {
   }
   .banner-title {
     font-size: 2.25rem;
-    width: 60%;
   }
 
   .banner-description {
