@@ -205,6 +205,10 @@ body {
   background-color: rgba(230, 83, 60, 1);
   margin-right: 12px;
 }
+
+.play-btn-img-hide{
+  display: none;
+}
 /* banner section end */
 
 /* header section end */
@@ -676,11 +680,11 @@ body {
   }
   .banner-title {
     font-size: 2.25rem;
-    /* width: 60%; */
+    width: 60%;
   }
 
-  .span {
-    font-size: 2.25rem;
+  .banner-description{
+    width: 70%;
   }
 
   .banner-btn {
@@ -733,6 +737,15 @@ body {
     height: 30px;
     width: 30px;
     margin-right: 9px;
+    position: relative;
+  }
+
+  .play-btn-img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   /* header styles end */
