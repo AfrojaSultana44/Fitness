@@ -53,10 +53,9 @@ body {
 .header-container {
   width: 100%;
   background-color: black;
- 
+
   /* background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0)); */
   /* background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-
 }
 
 .nav-container {
@@ -318,10 +317,52 @@ body {
   border-radius: 18px;
 }
 
-.hide{
+.hide {
   display: none;
 }
 /* run an extra mile section end */
+
+/* Unique section starts */
+.choose-us-container {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choose-us-img {
+  width: 50%;
+}
+
+.choose-us-img > img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.choose-us-content {
+  width: 40%;
+}
+
+.choose-us-content > h1 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 14px;
+}
+
+.choose-us-content > ul {
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.choose-us-content > ul > li {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.87rem;
+  margin-bottom: 8px;
+}
+/* Unique section end */
 
 /* team section starts */
 .team-container {
@@ -655,31 +696,34 @@ body {
     padding: 16px 20px;
   }
 
+  .floating-card {
+    padding: 15px 17px;
+  }
+
   .floating-card-1 {
     top: 8%;
     right: 20%;
   }
-  
+
   .floating-card-2 {
     top: 50%;
     left: 5%;
   }
 
-  .count-workout-videos{
+  .count-workout-videos {
     font-size: 1.87rem;
   }
 
-  .title-workout-videos{
-font-size: 0.61rem;
+  .title-workout-videos {
+    font-size: 0.61rem;
   }
 
-  .count-tutorial-videos{
+  .count-tutorial-videos {
     font-size: 1.12rem;
   }
 
-  .title-tutorial-videos{
+  .title-tutorial-videos {
     font-size: 0.75rem;
-
   }
 
   .circle {
@@ -747,10 +791,31 @@ font-size: 0.61rem;
     width: 100%;
   }
 
-  .hide{
+  .hide {
     display: block;
   }
   /* run an extra mile section end */
+
+  /* Unique section starts */
+  .choose-us-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .choose-us-img {
+    width: 100%;
+  }
+
+  .choose-us-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .choose-us-content > h1 {
+    font-size: 2rem;
+  }
+  /* Unique section end */
 
   /* BMI calculator section starts */
   .bmi-calculator-content {
